@@ -135,15 +135,21 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-.list .list__item .input-task {
+.list
+.list__item
+.input-task {
     display: none;
 }
 
-.list .list__item.editMode .input-task {
+.list
+.list__item.editMode
+.input-task {
     display: inline-block;
     width: 224px;
 }
 
-.list .list__item.editMode label {
+.list
+.list__item.editMode 
+label {
     display: none;
 }
