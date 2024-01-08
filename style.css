@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.about-matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.about-matrix img {
     width: 100%;
 }
-.aaa .more_inf {
+.about-matrix .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.about-matrix { text-align: center;
 }
 }
-.centered-main-page-element {
+.task-items {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -38,7 +38,7 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+li, h2 {
     list-style:none;
 }
 input,button{
@@ -57,7 +57,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
+h2,
 label[for='new-task'] {
     color: #333;
     font-weight: 700;
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete img {
+button.delete-button img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete-button img:hover {
     transform: rotateZ(0);
 }
 
